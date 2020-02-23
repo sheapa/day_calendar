@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,100 +30,224 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-       
-        <form id="9AM">
-          <div class="input-group mb-3">
-            <label id="9AM" class="input-group-text" for="timeBlock">9AM</label>
-            <input id= "timeBlock" type="text" placeholder="appointment" class="form-control" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Save</button>
-            </div>
-          </div>
-        </form>
 
-        <form id="10AM">
-            <div class="input-group mb-3">
-              <label id="10AM" class="input-group-text" for="timeBlock">10AM</label>
-              <input id= "timeBlock" type="text" placeholder="appointment" class="form-control" aria-describedby="button-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Save</button>
-              </div>
-            </div>
-        </form>
-
-        <form id="11AM">
-          <div class="input-group mb-3">
-            <label id="11AM" class="input-group-text" for="timeBlock">11AM</label>
-            <input id= "timeBlock" type="text" placeholder="appointment" class="form-control" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Save</button>
-            </div>
-          </div>
-        </form>
-
-        <form id="12PM">
-            <div class="input-group mb-3">
-              <label id="12PM" class="input-group-text" for="timeBlock">12PM</label>
-              <input id= "timeBlock" type="text" placeholder="appointment" class="form-control" aria-describedby="button-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Save</button>
-              </div>
-            </div>
-        </form>
-
-        <form id="1PM">
-          <div class="input-group mb-3">
-            <label id="1PM" class="input-group-text" for="timeBlock">1PM</label>
-            <input id= "timeBlock" type="text" placeholder="appointment" class="form-control" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Save</button>
-            </div>
-          </div>
-        </form>
-
-        <form id="2PM">
-            <div class="input-group mb-3">
-              <label id="2PM" class="input-group-text" for="timeBlock">2PM</label>
-              <input id= "timeBlock" type="text" placeholder="appointment" class="form-control" aria-describedby="button-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Save</button>
-              </div>
-            </div>
-        </form>
-
-        <form id="3PM">
-          <div class="input-group mb-3">
-            <label id="3PM" class="input-group-text" for="timeBlock">3PM</label>
-            <input id= "timeBlock" type="text" placeholder="appointment" class="form-control" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Save</button>
-            </div>
-          </div>
-      </form>
-
-      <form id="4PM">
+      <!-- 9:00 AM -->
+      <form id="9">
         <div class="input-group mb-3">
-          <label id="4PM" class="input-group-text" for="timeBlock">4PM</label>
-          <input id= "timeBlock" type="text" placeholder="appointment" class="form-control" aria-describedby="button-addon2">
+          <label id="9AM" class="input-group-text" for="timeBlock"
+            >9:00AM</label
+          >
+          <input
+            id="timeBlock"
+            type="text"
+            placeholder="appointment"
+            class="form-control"
+            aria-describedby="button-addon2"
+          />
           <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Save</button>
+            <button
+              class="btn btn-outline-secondary saveBtn"
+              type="submit"
+              id="button-addon2"
+            >
+              Save
+            </button>
           </div>
         </div>
       </form>
-
-      <form id="5PM">
-          <div class="input-group mb-3">
-            <label id="5PM" class="input-group-text" for="timeBlock">5PM</label>
-            <input id= "timeBlock" type="text" placeholder="appointment" class="form-control" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Save</button>
-            </div>
+      <!-- 10:00 AM -->
+      <form id="10">
+        <div class="input-group mb-3">
+          <label id="10AM" class="input-group-text" for="timeBlock"
+            >10:00AM</label
+          >
+          <input
+            id="timeBlock"
+            type="text"
+            placeholder="appointment"
+            class="form-control"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary saveBtn"
+              type="submit"
+              id="button-addon2"
+            >
+              Save
+            </button>
           </div>
+        </div>
       </form>
-
-      
+      <!-- 11:00 AM -->
+      <form id="11">
+        <div class="input-group mb-3">
+          <label id="11AM" class="input-group-text" for="timeBlock"
+            >11:00AM</label
+          >
+          <input
+            id="timeBlock"
+            type="text"
+            placeholder="appointment"
+            class="form-control"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary saveBtn"
+              type="submit"
+              id="button-addon2"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </form>
+      <!-- 12:00 PM -->
+      <form id="12">
+        <div class="input-group mb-3">
+          <label id="12PM" class="input-group-text" for="timeBlock"
+            >12:00PM</label
+          >
+          <input
+            id="timeBlock"
+            type="text"
+            placeholder="appointment"
+            class="form-control"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary saveBtn"
+              type="submit"
+              id="button-addon2"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </form>
+      <!-- 1:00 PM -->
+      <form id="13">
+        <div class="input-group mb-3">
+          <label id="1PM" class="input-group-text" for="timeBlock"
+            >1:00PM</label
+          >
+          <input
+            id="timeBlock"
+            type="text"
+            placeholder="appointment"
+            class="form-control"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary saveBtn"
+              type="submit"
+              id="button-addon2"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </form>
+      <!-- 2:00 PM -->
+      <form id="14">
+        <div class="input-group mb-3">
+          <label id="2PM" class="input-group-text" for="timeBlock"
+            >2:00PM</label
+          >
+          <input
+            id="timeBlock"
+            type="text"
+            placeholder="appointment"
+            class="form-control"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary saveBtn"
+              type="submit"
+              id="button-addon2"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </form>
+      <!-- 3:00 PM -->
+      <form id="15">
+        <div class="input-group mb-3">
+          <label id="3PM" class="input-group-text" for="timeBlock"
+            >3:00PM</label
+          >
+          <input
+            id="timeBlock"
+            type="text"
+            placeholder="appointment"
+            class="form-control"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary saveBtn"
+              type="submit"
+              id="button-addon2"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </form>
+      <!-- 4:00 PM -->
+      <form id="16">
+        <div class="input-group mb-3">
+          <label id="4PM" class="input-group-text" for="timeBlock"
+            >4:00PM</label
+          >
+          <input
+            id="timeBlock"
+            type="text"
+            placeholder="appointment"
+            class="form-control"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary saveBtn"
+              type="submit"
+              id="button-addon2"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </form>
+      <!-- 5:00 PM -->
+      <form id="17">
+        <div class="input-group mb-3">
+          <label id="5PM" class="input-group-text" for="timeBlock"
+            >5:00PM</label
+          >
+          <input
+            id="timeBlock"
+            type="text"
+            placeholder="appointment"
+            class="form-control"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary saveBtn"
+              type="submit"
+              id="button-addon2"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
-    
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
