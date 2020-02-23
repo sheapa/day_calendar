@@ -30,9 +30,9 @@ $( document ).ready(function() {
     
 
      
-     $("form").makeArray(function(formArray) {
-        // var formArray = $(this).attr("id")
-        
+     $("form").each(function(formArray) {
+        var formArray = $(this).attr("id")
+
         console.log(formArray);
         //console.log(index + $(this).attr("id"));
         // Variables Created for comparing moment time to time represented in each schedule block.
